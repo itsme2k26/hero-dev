@@ -42,6 +42,12 @@
   line-height: 30px;
   color: #757575;
 }
+
+.text-center{
+  text-align: center;
+  margin: 100px auto;
+}
+
 /* MAIN STYLE   */
 header{
   background-color: #f5eae3;
@@ -208,5 +214,46 @@ nav .menu a{
 .resume-card .card-text{
   font-size: 16px;
   line-height: 28px;
+  color: #757575;
+}
+
+/*  FOOTER SECTION */
+
+footer{
+  margin-top: 150px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 115px;
+}
+.footer-container h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.footer-container .social{
+  max-width: 562px;
+}
+.footer-container .social p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.footer-container .icons a{
+  margin-right: 25px;
+}
+.footer-container form input[type="text"], .footer-container form  textarea{
+  width: 460px;
+  padding: 18px 31px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
   color: #757575;
 }
